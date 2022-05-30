@@ -1,5 +1,5 @@
 # pepper-robot
-Tablet application which integrates with Pepper Robot to deliver a feedback survey
+Tablet application which integrates with Pepper Robot to deliver a feedback survey - Live demo - https://youtu.be/wMYhT_Fis-w
 
 
 Specs used by me locally:
