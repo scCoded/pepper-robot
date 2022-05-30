@@ -1,0 +1,207 @@
+* {
+    font-size: 48px;
+    font-family: -apple-ssystem, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: black;
+    background: aliceblue;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: transparent;
+}
+
+p {
+    font-family: "Bookman Old Style";
+    font-size: 35px;
+    display: inline;
+}
+
+.connection {
+    float: right;
+    color: grey;
+}
+
+.container {
+    margin-top: 60px;
+    -webkit-box-shadow: 0 4px 12px rgb(0 0 0 / 55%);
+    padding: 0.5rem 0.2rem 0.2rem;
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+    border: solid 1px black;
+}
+
+.question {
+    font-size: larger;
+    background-color: whitesmoke;
+}
+
+input {
+    width: -webkit-fill-available;
+    padding: 25px;
+}
+
+button {
+    display: block;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 7px 14px;
+    font-size: 60px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+}
+
+h2,
+input,
+button {
+    margin: 20px;
+}
+
+progress {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: -webkit-fill-available;
+    text-align: center;
+    -webkit-appearance: none;
+    border: solid 1px grey;
+    position: relative;
+}
+
+progress:before {
+    content: attr(data-label);
+    font-size: 0.7em;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+progress::-webkit-progress-bar {
+    background-color: lightgray;
+}
+
+progress::-webkit-progress-value {
+    background-color: lightseagreen;
+}
+
+progress::-moz-progress-bar {
+    background-color: lightgray;
+}
+
+progress::-moz-progress-bar {
+    background: lightgray;
+}
+
+.box {
+    width: 300px;
+    margin: 50px auto;
+    background: lightgrey;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    position: relative;
+    display: inline;
+    color: black;
+    font-family: "Bookman Old Style";
+    font-size: 35px;
+}
+
+.sb3:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid lightgrey;
+    border-right: 10px solid transparent;
+    border-top: 10px solid lightgrey;
+    border-bottom: 10px solid transparent;
+    left: 19px;
+    bottom: -19px;
+}
+
+.btn-group button {
+    float: left;
+    /* Float the buttons side by side */
+}
+
+
+/* Clear floats (clearfix hack) */
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.text-input-q,
+.slider-q,
+.multiple-choice-q {
+    background-color: whitesmoke;
+    display: none;
+}
+
+.multiple-choice-q {
+    float: left;
+}
+
+.slider-q-value {
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+#slider-q-value {
+    background-color: whitesmoke;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.multiple-choice-q button:focus,
+.red-element {
+    background-color: red;
+}
+
+.red-element {
+    display: none;
+}

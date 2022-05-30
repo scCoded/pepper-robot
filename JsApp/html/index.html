@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale = 1.333,minimum-scale = 1.333,maximum-scale = 1.333" />
+    <title>Feedback Survey</title>
+    <script src="/libs/qimessaging/2/qimessaging.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <img id="pepper-logo" src="images/logo.png" onclick="changePepperDialog()">
+    <div class="box sb3">Hey there user</div>
+    <p class="connection" id="connection">Trying to Connect...</p><br>
+    <div class="container">
+        <h2 id="question" class="question"> Is this is the first question? </h2>
+        <div class="text-input-q">
+            <input type="text" id="answer" placeholder="answer here" />
+        </div>
+        <div class="btn-group multiple-choice-q" style="width:100%">
+            <button id="a" style="width:45%">A</button>
+            <button id="b" style="width:45%">B</button>
+        </div>
+        <div class="btn-group multiple-choice-q" style="width:100%">
+            <button id="c" style="width:45%">C</button>
+            <button id="d" style="width:45%">D</button>
+        </div>
+        <div class="slider-q slidecontainer">
+            <input type="range" min="1" max="10" value="5" class="slider" id="slider-range">
+            <p class="slider-q-value">Value: <span id="slider-q-value"></span></p>
+        </div>
+        <button id="submitAnswer">Next →  </button>
+    </div>
+    <progress id="progress" max="100" value="70" data-label="50% Complete"></progress>
+    <button class="red-element"></button>
+</body>
+
+</html>

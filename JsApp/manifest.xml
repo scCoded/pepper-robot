@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="test-70779a" version="0.0.0">
+ <names>
+  <name lang="en_US">Test</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Sophie's Survey</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US"></sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">Sophie's Feedback App Started</sentence>
+   </loadingResponses>
+   <permissions>
+    <canRunOnPod/>
+    <canStandUp/>
+    <canSitDown/>
+   </permissions>
+  </behaviorContent>
+ </contents>
+</package>
